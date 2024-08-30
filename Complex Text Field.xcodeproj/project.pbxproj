@@ -11,6 +11,8 @@
 		FB75619A2C819C9900A0A5A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7561992C819C9900A0A5A0 /* ContentView.swift */; };
 		FB75619C2C819C9900A0A5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB75619B2C819C9900A0A5A0 /* Assets.xcassets */; };
 		FB7561A02C819C9900A0A5A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB75619F2C819C9900A0A5A0 /* Preview Assets.xcassets */; };
+		FB7561A72C819FF400A0A5A0 /* EmailTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7561A62C819FF400A0A5A0 /* EmailTextFieldView.swift */; };
+		FB7561A92C81B67900A0A5A0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7561A82C81B67900A0A5A0 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FB75619B2C819C9900A0A5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB75619D2C819C9900A0A5A0 /* Complex_Text_Field.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Complex_Text_Field.entitlements; sourceTree = "<group>"; };
 		FB75619F2C819C9900A0A5A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB7561A62C819FF400A0A5A0 /* EmailTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextFieldView.swift; sourceTree = "<group>"; };
+		FB7561A82C81B67900A0A5A0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				FB7561972C819C9900A0A5A0 /* Complex_Text_FieldApp.swift */,
 				FB7561992C819C9900A0A5A0 /* ContentView.swift */,
+				FB7561A62C819FF400A0A5A0 /* EmailTextFieldView.swift */,
+				FB7561A82C81B67900A0A5A0 /* Extensions.swift */,
 				FB75619B2C819C9900A0A5A0 /* Assets.xcassets */,
 				FB75619D2C819C9900A0A5A0 /* Complex_Text_Field.entitlements */,
 				FB75619E2C819C9900A0A5A0 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB75619A2C819C9900A0A5A0 /* ContentView.swift in Sources */,
+				FB7561A72C819FF400A0A5A0 /* EmailTextFieldView.swift in Sources */,
 				FB7561982C819C9900A0A5A0 /* Complex_Text_FieldApp.swift in Sources */,
+				FB7561A92C81B67900A0A5A0 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

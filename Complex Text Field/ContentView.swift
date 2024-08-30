@@ -1,19 +1,27 @@
-//
-//  ContentView.swift
-//  Complex Text Field
-//
-//  Created by dwi prasetyo on 30/08/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var email = ""
+    
+    var title: String {
+        email.isEmpty ? "Enter an email" : "Current email"
+    }
+    
+    var color: Color {
+        email.isEmpty ? .red : .blue
+    }
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(title)
+                .foregroundStyle(color)
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+                .padding()
+            Spacer()
+            Text(email).bold()
+            EmailTextFieldView(email: $email)
         }
         .padding()
     }
